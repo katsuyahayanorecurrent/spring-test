@@ -39,7 +39,7 @@ public class FizzBuzzController {
 		} else if (num % 7 == 0 && num != 0) {
 			result = "Ass";
 		} else {
-			result = "あ";
+			result = "あllllllll";
 		}
 		mv.addObject("result", result);
 		mv.addObject("num", num);
